@@ -112,7 +112,7 @@ export function Value({ data, ...props }) {
       case typeNames.bigint:
         return (
           <span style={{ color: theme.valueNumberColor, ...props.style }}>
-            {data}n
+            {String(data)}n
           </span>
         )
 
